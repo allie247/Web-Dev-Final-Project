@@ -1,4 +1,5 @@
 # Web-Dev-Final-Project
 
-#Project 
-#https://trello.com/b/m2QqWCQL/cs1080-final-project
+Project To-Do List
+
+https://trello.com/b/m2QqWCQL/cs1080-final-project
