@@ -24,6 +24,70 @@
         <h1>Contact Us</h1>
     </section>
 
+    <body>
+        <form id = "myForm">
+            <label for="name">Your name:</label>
+            <input type="text" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email"><br>
+
+            <label for="phone">Phone number:</label>
+            <input type="text" name="phone"><br>
+
+            <label for="date">Today's date:</label>
+            <input type="date" name="date"><br>
+
+            Age range of the party:
+            <select name="age-range">
+                <option value="age1">1-20</option>
+                <option value="age2">21-40</option>
+                <option value="age3">41-60</option>
+                <option value="age4">61-80</option>
+                <option value="age5">81-100</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <label for="other-range">If other age range, specify here:</label>
+            <input type="text" name="other-range"><br>
+
+            <label for="size">Party size:</label>
+            <input type="number" name="size">people<br>
+
+            Party Type:
+            <select name="party-type">
+                <option value="party1">Bachelorette Party</option>
+                <option value="party2">Bachelor Party</option>
+                <option value="party3">Family Group</option>
+                <option value="party4">Friend Group</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <label for="other-type">If other party type, specify here:</label>
+            <input type="text" name="other-type"><br>
+
+            <label for="length">Length of stay:</label>
+            <input type="number" name="length">days<br>
+
+            Season you are visiting during:
+            <select name="season">
+                <option value="winter">Winter</option>
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+                <option value="autumn">Autumn</option>
+            </select><br>
+
+            What are your groups' interests or hobbies?<br>
+
+            <input type="checkbox" name="interest" value="interest">
+            <label for="interest">Interest</label><br>
+
+                <input type="submit" value="Send Your Response To Us">
+        </form>
+
+        <script src = "js/index.js"></script>
+    </body>
+
 
     <!-- Footer -->
     <footer>
