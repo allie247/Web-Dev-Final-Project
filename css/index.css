@@ -93,3 +93,8 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
