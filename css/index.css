@@ -27,6 +27,13 @@ h1 {
     font-style: bold;
     font-size: 2rem;
 }
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 1.5rem;
+}
 footer {
     background-color: rgba(183, 139, 205, 0.687);
     border:solid thin black;
@@ -41,4 +48,35 @@ footer {
     justify-content: center;
     margin: 7;
     padding: 5;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-body-left {
+    flex: 1;
+    padding-right: 10%;
+    margin-left: 25%;
+    font-size: 1.2rem;
+}
+.category-images-right {
+    flex: 1;
+    padding-right: 25%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+.category-images-left {
+    flex: 1;
+    padding-right: 10%;
+    margin-left: 25%;
+    display: flex;
+}
+.category-body-right {
+    flex: 1;
+    padding-right: 20%;
+    margin-right: 2%;
+    font-size: 1.2rem;
+    justify-content: flex-end;
 }
