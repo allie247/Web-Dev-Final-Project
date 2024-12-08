@@ -10,7 +10,7 @@ form.addEventListener("submit", (event) => {
   for (const [key, value] of formData.entries()) {
     data[key] = value;
   }
-  sessionStorageStorage.setItem("formData", JSON.stringify(data));
+  sessionStorage.setItem("formData", JSON.stringify(data));
 
   submitButton.value = "Thank you for your request! We will get back to you shortly."
 });
