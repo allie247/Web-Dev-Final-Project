@@ -1,5 +1,6 @@
 
 const form = document.getElementById("myForm"); 
+const submitButton = form.querySelector('input[type="submit"]');
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -9,6 +10,7 @@ form.addEventListener("submit", (event) => {
   for (const [key, value] of formData.entries()) {
     data[key] = value;
   }
-  sessionStorage.setItem("formData", JSON.stringify(data)); 
+  sessionStorageStorage.setItem("formData", JSON.stringify(data));
 
+  submitButton.value = "Thank you for your request! We will get back to you shortly."
 });

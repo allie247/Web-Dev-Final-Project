@@ -20,111 +20,127 @@
     </nav>
 
     <!-- Form Section -->
-    <section class="form">
+    <section>
         <h1>Contact Us</h1>
     </section>
 
     <form id = "myForm">
-        <label for="name">Your name:</label>
-        <input type="text" name="name"><br>
+        <div class = "form">
+            <label for="name">Your name:</label>
+            <input type="text" name="name"><br>
+        </div><br>
+        <div class = "form">
+            <label for="email">Email:</label>
+            <input type="email" name="email"><br>
+        </div><br>
+        <div class = "form">
+            <label for="phone">Phone number:</label>
+            <input type="text" name="phone"><br>
+        </div><br>
+        <div class = "form">
+            <label for="date">Today's date:</label>
+            <input type="date" name="date"><br>
+        </div><br>
+        <div class = "form">
+            Age range of the party:
+            <select name="age-range">
+                <option value="age1">1-20</option>
+                <option value="age2">21-40</option>
+                <option value="age3">41-60</option>
+                <option value="age4">61-80</option>
+                <option value="age5">81-100</option>
+                <option value="other">Other</option>
+            </select><br>
+        </div><br>
+        <div class = "form">
+            <label for="other-range">If other age range, specify here:</label>
+            <input type="text" name="other-range"><br>
+        </div><br>
+        <div class = "form">
+            <label for="size">Party size:</label>
+            <input type="number" name="size">people<br>
+        </div><br>
+        <div class = "form">
+            Party Type:
+            <select name="party-type">
+                <option value="party1">Bachelorette Party</option>
+                <option value="party2">Bachelor Party</option>
+                <option value="party3">Family Group</option>
+                <option value="party4">Friend Group</option>
+                <option value="other">Other</option>
+            </select><br>
+        </div><br>
+        <div class = "form">
+            <label for="other-type">If other party type, specify here:</label>
+            <input type="text" name="other-type"><br>
+        </div><br>
+        <div class = "form">
+            <label for="length">Length of stay:</label>
+            <input type="number" name="length">days<br>
+        </div><br>
+        <div class = "form">
+            Season you are visiting during:
+            <select name="season">
+                <option value="winter">Winter</option>
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+                <option value="autumn">Autumn</option>
+            </select><br>
+        </div><br>
+        <div class = "form">
+            What are your groups'interests or hobbies?<br>
+            <div>
+                <input type="checkbox" name="art" value="art">
+            <label for="art">Arts and Crafts</label><br>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email"><br>
+            <input type="checkbox" name="music" value="music">
+            <label for="music">Music</label><br>
 
-        <label for="phone">Phone number:</label>
-        <input type="text" name="phone"><br>
+            <input type="checkbox" name="films" value="films">
+            <label for="films">Films and Theaters</label><br>
 
-        <label for="date">Today's date:</label>
-        <input type="date" name="date"><br>
+            <input type="checkbox" name="hiking" value="hiking">
+            <label for="hiking">Hiking and Camping</label><br>
 
-        Age range of the party:
-        <select name="age-range">
-            <option value="age1">1-20</option>
-            <option value="age2">21-40</option>
-            <option value="age3">41-60</option>
-            <option value="age4">61-80</option>
-            <option value="age5">81-100</option>
-            <option value="other">Other</option>
-        </select><br>
+            <input type="checkbox" name="sport" value="sport">
+            <label for="sport">Team and Individual Sports</label><br>
 
-        <label for="other-range">If other age range, specify here:</label>
-        <input type="text" name="other-range"><br>
+            <input type="checkbox" name="community" value="community">
+            <label for="community">Activism and Community</label><br>
 
-        <label for="size">Party size:</label>
-        <input type="number" name="size">people<br>
+            <input type="checkbox" name="cooking" value="cooking">
+            <label for="cooking">Cooking and Baking</label><br>
+            </div>
+            <div>
+                <input type="checkbox" name="culture" value="culture">
+            <label for="culture">Cultural Exploration</label><br>
 
-        Party Type:
-        <select name="party-type">
-            <option value="party1">Bachelorette Party</option>
-            <option value="party2">Bachelor Party</option>
-            <option value="party3">Family Group</option>
-            <option value="party4">Friend Group</option>
-            <option value="other">Other</option>
-        </select><br>
+            <input type="checkbox" name="games" value="games">
+            <label for="games">Video and Board Games</label><br>
 
-        <label for="other-type">If other party type, specify here:</label>
-        <input type="text" name="other-type"><br>
+            <input type="checkbox" name="garden" value="garden">
+            <label for="garden">Gardening</label><br>
 
-        <label for="length">Length of stay:</label>
-        <input type="number" name="length">days<br>
+            <input type="checkbox" name="water" value="water">
+            <label for="water">Swimming, Boating, and Fishing</label><br>
 
-        Season you are visiting during:
-        <select name="season">
-            <option value="winter">Winter</option>
-            <option value="spring">Spring</option>
-            <option value="summer">Summer</option>
-            <option value="autumn">Autumn</option>
-        </select><br>
+            <input type="checkbox" name="wellness" value="wellness">
+            <label for="wellness">Health and Wellness</label><br>
 
-        What are your groups' interests or hobbies?<br>
+            <input type="checkbox" name="fashion" value="fashion">
+            <label for="fashion">Fashion</label><br>
 
-        <input type="checkbox" name="art" value="art">
-        <label for="art">Arts and Crafts</label><br>
-
-        <input type="checkbox" name="music" value="music">
-        <label for="music">Music</label><br>
-
-        <input type="checkbox" name="films" value="films">
-        <label for="films">Films and Theaters</label><br>
-
-        <input type="checkbox" name="hiking" value="hiking">
-        <label for="hiking">Hiking and Camping</label><br>
-
-        <input type="checkbox" name="sport" value="sport">
-        <label for="sport">Team and Individual Sports</label><br>
-
-        <input type="checkbox" name="community" value="community">
-        <label for="community">Activism and Community</label><br>
-
-        <input type="checkbox" name="cooking" value="cooking">
-        <label for="cooking">Cooking and Baking</label><br>
-
-        <input type="checkbox" name="culture" value="culture">
-        <label for="culture">Cultural Exploration</label><br>
-
-        <input type="checkbox" name="games" value="games">
-        <label for="games">Video and Board Games</label><br>
-
-        <input type="checkbox" name="garden" value="garden">
-        <label for="garden">Gardening</label><br>
-
-        <input type="checkbox" name="water" value="water">
-        <label for="water">Swimming, Boating, and Fishing</label><br>
-
-        <input type="checkbox" name="wellness" value="wellness">
-        <label for="wellness">Health and Wellness</label><br>
-
-        <input type="checkbox" name="fashion" value="fashion">
-        <label for="fashion">Fashion</label><br>
-
-        <input type="checkbox" name="vintage" value="vintage">
-        <label for="vintage">Vintage Goods and Antiques</label><br>
-
+            <input type="checkbox" name="vintage" value="vintage">
+            <label for="vintage">Vintage Goods and Antiques</label><br>
+            </div>
+        </div><br>
+        <div class = "form">
             <input type="submit" value="Send Your Response To Us">
+        </div>
+        <br>
     </form>
     <script src = "js/index.js"></script>
 </body>
-
 
     <!-- Footer -->
     <footer>
