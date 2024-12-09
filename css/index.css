@@ -116,3 +116,19 @@ footer {
     margin-right: 10%;
     text-align: center;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 0.8;
+}
