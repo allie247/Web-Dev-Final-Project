@@ -131,3 +131,6 @@ h3 {
 h4 {
     font-size: 1.5rem;
 }
+#map {
+    height: 100vh; /* Full height map */
+}
