@@ -21,3 +21,80 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 2rem;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+footer {
+    background-color: rgba(183, 139, 205, 0.687);
+    border:solid thin black;
+    bottom: 0;
+    margin: 7;
+    padding: 5;
+    justify-content: center;
+}
+.footer-text {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 7;
+    padding: 5;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid thin rgba(183, 139, 205, 0.687);
+    margin-bottom: 1%;
+}
+.category-body-left {
+    flex: 1;
+    padding-right: 5%;
+    margin-left: 8%;
+    font-size: 1.2rem;
+}
+.category-images-right {
+    flex: 1;
+    padding-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+.category-images-left {
+    flex: 1;
+    padding-right: 5%;
+    margin-left: 8%;
+    display: flex;
+}
+.category-body-right {
+    flex: 1;
+    padding-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    justify-content: flex-end;
+}
+.other-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
