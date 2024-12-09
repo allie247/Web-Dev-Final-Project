@@ -55,7 +55,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid thin rgba(183, 139, 205, 0.687);
+    border: thick solid rgba(13, 119, 66, 0.48);
     margin-bottom: 1%;
 }
 .category-body-left {
@@ -89,6 +89,8 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
 .collage-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
