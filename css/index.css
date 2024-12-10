@@ -5,9 +5,18 @@ img {
     padding: 1%;
 }
 nav{
-    background-color: rgba(183, 139, 205, 0.687);
+    background-color: rgba(144, 116, 214, 0.596);
     border:solid thin black;
     color:black;
+    
+}
+nav a{
+    color:black;
+
+   
+}
+nav a:hover{
+    color:rgb(41, 147, 147);
 }
 body{
     background-color:rgba(255, 192, 203, 0.606);
