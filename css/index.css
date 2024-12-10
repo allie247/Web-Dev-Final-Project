@@ -116,10 +116,14 @@ footer {
 .collage-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px; /* Space between images */
+    gap: 5px; 
     padding: 10px;
     background: #fff;
     border: 2px solid #ddd;
+    width: 60%;
+    margin: 0 auto; /* Center horizontally */
+    position: relative; /* Ensure alignment context */
+    top: 50%; /* Vertically center */
 }
 
 .collage-images img {
