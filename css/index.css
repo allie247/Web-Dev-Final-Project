@@ -35,6 +35,7 @@ h3 {
     align-items: center;
     font-style: bold;
     font-size: 1.5rem;
+    border-color:green;
 }
 footer {
     background-color: rgba(183, 139, 205, 0.687);
@@ -51,10 +52,16 @@ footer {
     margin: 7;
     padding: 5;
 }
+.titles{
+    border:rgb(19, 114, 121);
+    border-style:dotted;
+    border-width:0.5rem;
+}
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-style:dotted;
     border: thick solid rgba(13, 119, 66, 0.48);
     margin-bottom: 1%;
 }
@@ -116,6 +123,8 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    border-style:dotted;
+    border-color:green;
 }
 
 h1 {
