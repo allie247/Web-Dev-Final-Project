@@ -135,6 +135,7 @@ footer {
     text-align:center;
     gap:20rem;
     border:thin blue;
+    font-size: 1.5rem;
 }
 .season p{
     flex:1;
