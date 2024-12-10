@@ -132,8 +132,8 @@ footer {
     margin-left:10rem;
     margin-right:10rem;
     text-align:center;
-    display:flex;
     gap:20rem;
+    border:thin blue;
 }
 .season p{
     flex:1;
