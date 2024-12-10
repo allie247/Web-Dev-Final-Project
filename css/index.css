@@ -56,6 +56,9 @@ footer {
     border:rgb(19, 114, 121);
     border-style:dotted;
     border-width:0.5rem;
+    padding:2;
+    margin:8;
+
 }
 .container {
     display: flex;
@@ -123,8 +126,18 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    border-style:dotted;
-    border-color:green;
+    
+}
+.seasons{
+    margin-left:10rem;
+    margin-right:10rem;
+    text-align:center;
+    display:flex;
+    gap:20rem;
+}
+.season p{
+    flex:1;
+    padding:5rem;
 }
 
 h1 {
