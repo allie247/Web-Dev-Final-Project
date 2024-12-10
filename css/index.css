@@ -30,6 +30,7 @@ nav ul {
 }
 nav ul li {
     margin: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     display: flex;
@@ -137,6 +138,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .description {
     margin-left: 10%;
