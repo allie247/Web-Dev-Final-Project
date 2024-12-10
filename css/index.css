@@ -37,6 +37,7 @@ h1 {
     align-items: center;
     font-style: bold;
     font-size: 2rem;
+    text-transform:capitalize;
 }
 h3 {
     display: flex;
@@ -45,6 +46,7 @@ h3 {
     font-style: bold;
     font-size: 1.5rem;
     border-color:green;
+    background-color:rgba(66, 59, 139, 0.192)
 }
 footer {
     background-color: rgba(183, 139, 205, 0.687);
@@ -175,4 +177,144 @@ h4 {
 }
 #map {
     height: 100vh; /* Full height map */
+}
+
+
+
+
+
+
+
+
+
+html{
+    color:var(--main-text-color);
+
+}
+html{
+    background-image:url(../images/leafphoto.jpg);
+    }
+header{
+    color:rgb(215, 107, 12);
+    border: thick solid orangered;
+    padding:1em;
+}
+h1{
+    text-transform:capitalize;
+}
+h2{
+    color: white;
+    background-color:rgb(43, 83, 26)
+}
+p{
+    background-color:rgba(163, 210, 179, 0.517);
+    text-indent:5%;
+    margin:0em;
+    
+}
+li{
+    background-color:rgba(240,248,255,0.7);
+}
+h3{
+    color:rgb(14, 82, 14);
+    border:thin solid rgb(91, 148, 91);
+    padding:1em;
+    background-color:white;
+}
+h5{
+    color:rgb(20, 74, 20);
+    text-align:center; 
+}
+section{
+    border:thin solid green;
+    background-color:white;
+}
+footer{
+    border:thin solid orangered;
+    background-color:whitesmoke;
+}
+fieldset{
+    background-color:white;
+}
+legend{
+    background-color:rgba(255, 166, 0, 0.613);
+}
+body{
+    width:90%;
+    margin:auto;
+}
+
+a:hover {
+    background-color:yellow;
+}
+
+figure{
+    float:left;
+    text-align: center;
+    width: 20em;
+    border:thin sold orangered;
+    border-radius:1em;
+    float:right;
+}
+img{
+    max-width:100%;
+    border-radius:1em;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav a:link{
+    background-color: #fff;
+    color: #009;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    border:thick solid black;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    border:thick solid black;
+}
+footer{
+    display:flex;
+    flex-direction:column;
+    border:thick solid black;
+}
+   
+.main-nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;  
+}
+nav a:hover{
+    text-decoration:underline;
+}
+nav a{
+    display:inline block;
+    width:19%;
+}
+nav {
+    border:thick solid rgb(255, 221, 0);
+    background-color:white;
+    text-align:center;
+}
+
+li:nth-child(even){
+    background:rgba(201, 172, 91, 0.324)
+}
+li:nth-child(odd){
+    background:rgba(186, 98, 104, 0.306)
+}  
+ul{
+    border:thick solid orangered;
+}
+#table {
+    border-collapse: collapse;
+}
+form{
+    border:thick solid orange;
+    text-indent:0%;
 }
