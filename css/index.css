@@ -137,9 +137,9 @@ footer {
     background: #fff;
     border: 2px solid #ddd;
     width: 60%;
-    margin: 0 auto; /* Center horizontally */
-    position: relative; /* Ensure alignment context */
-    top: 50%; /* Vertically center */
+    margin: 0 auto; 
+    position: relative; 
+    top: 50%; 
    
 }
 
