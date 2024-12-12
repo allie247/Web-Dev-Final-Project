@@ -157,28 +157,6 @@ img {
     justify-content: center;
 }
 
-
-.collage-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px; 
-    padding: 10px;
-    background: #fff;
-    border: 2px solid #ddd;
-    width: 60%;
-    margin: 0 auto; 
-    position: relative; 
-    top: 50%; 
-   
-}
-
-.collage-images img {
-    width: 90%;
-    height: 300px; 
-    object-fit: contain; 
-    border-radius: 5px;
-}
-
 .form {
     display: flex;
     justify-content: center;
