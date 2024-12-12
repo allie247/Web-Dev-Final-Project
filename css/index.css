@@ -57,6 +57,7 @@ h3 {
     background-color:rgba(66, 59, 139, 0.192);
     font-size: 2rem;
     font-family:Arial, Helvetica, sans-serif;
+   
 
 }
 footer {
@@ -139,6 +140,7 @@ footer {
     margin: 0 auto; /* Center horizontally */
     position: relative; /* Ensure alignment context */
     top: 50%; /* Vertically center */
+   
 }
 
 .collage-images img {
@@ -197,11 +199,4 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.button {
-    background-color: #ff7e5f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
